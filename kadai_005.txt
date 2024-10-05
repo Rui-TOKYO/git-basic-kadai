@@ -1,0 +1,31 @@
+PS C:\Users\reity> cd C:\Users\reity\Desktop\samurai-rensyu\kadai2
+PS C:\Users\reity\Desktop\samurai-rensyu\kadai2> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\reity\Desktop\samurai-rensyu\kadai2
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/10/05     11:31                git_challenge
+
+
+PS C:\Users\reity\Desktop\samurai-rensyu\kadai2> cd git_challenge
+PS C:\Users\reity\Desktop\samurai-rensyu\kadai2\git_challenge> git init
+Initialized empty Git repository in C:/Users/reity/Desktop/samurai-rensyu/kadai2/git_challenge/.git/
+PS C:\Users\reity\Desktop\samurai-rensyu\kadai2\git_challenge> git add .
+PS C:\Users\reity\Desktop\samurai-rensyu\kadai2\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 59e04b6] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\reity\Desktop\samurai-rensyu\kadai2\git_challenge> git add .
+PS C:\Users\reity\Desktop\samurai-rensyu\kadai2\git_challenge> git commit -m "日本 
+語訳を追加" 
+[main 7e663b4] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\reity\Desktop\samurai-rensyu\kadai2\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\reity\Desktop\samurai-rensyu\kadai2\git_challenge> git log --oneline
+7e663b4 (HEAD -> main) 日本語訳を追加
+59e04b6 hello_world.txtを追加
